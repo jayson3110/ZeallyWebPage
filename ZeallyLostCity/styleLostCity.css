@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+/*  font-family: 'Source Sans Pro', sans-serif; */
+
+  
+}
+
+
+
+/*navbar*/
+
+
+
+li, a {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+} 
+
+header {
+  padding: 10px 10%;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+
+
+
+}
+
+
+li {
+    display: inline-block;
+    padding: 0px 0px;
+
+  }
+.hover a:hover{
+  color: #FAE100;
+
+}
+.hover {
+  font-size: 18px;
+}
+
+.navba-icon {
+  position: absolute;
+  right: 100px;
+  top: 7px;
+}
+
+
+.site-title {
+    font-size: 3em;
+    text-align: center;
+    line-height: 0.75;
+    text-shadow: 0.1rem 0.1rem #ffd700;
+    margin: 0rem 1rem;
+    margin-top: -25px;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+/*body image*/
+
+.crop-height {
+  /* max-width: 1200px; /* native or declared width of img src (if known) */
+  max-height: 520px;
+  overflow: hidden;
+ /* padding-left: 40px;
+  padding-right: 40px;*/   }
+
+  img.scale {
+  /* corrects small inline gap at bottom of containing div */
+  display: block; 
+  width: 100%; /* corrects obscure Firefox bug */
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  display: block; /* corrects small inline gap at bottom of containing div */
+  width: 100% /* corrects obscure Firefox bug */
+  max-width: 100%;
+  /* just in case, to force correct aspect ratio */
+  height: auto !important;
+  /*width: auto\9; 
+  /* ie8+9 - use modernizr instead of this \9 hack */
+  /* lt ie8 */
+  -ms-interpolation-mode: bicubic;
+  /* optionally force a minimum size if img src size is known: */
+  /* min-height: 320px; /* max-height of .crop-height */
+  /* min-width: 480px; /* proportional to above */ }
+
+  .flip {
+  -webkit-transform: rotate(180deg);
+  -moz-transform:    rotate(180deg);
+  -ms-transform:     rotate(180deg);
+  -o-transform:      rotate(180deg);
+  transform:         rotate(180deg);
+  /* needed? not sure */
+  zoom: 1; }
+
+img.flip {
+  /* actually, aligns left within .cropheight */
+  float: right;
+  /* clearfix after? */ }
+
+
+/*content image*/
+
+.contentImage {
+  position: absolute;
+  top: 200px;
+  right: 370px;
+}
+
+.contentImage h1 {
+  color: white;
+  font-size: 75px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+.contentImage p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  
+}
+
+
+/*containerContent*/ 
+
+.header {
+  font-size: 10px;
+  margin-left: 70px;
+  margin-bottom: -30px;
+}
+
+.header h1 {
+  font-size: 27px;
+}
+
+.header a:hover {
+  color: yellow;
+}
+.content { 
+  overflow:auto; 
+  width: 90%; 
+  padding: 70px;
+  margin-bottom: -180px;
+ 
+} 
+
+
+.left, .right { 
+  width: 35%; 
+  margin:5px; 
+  padding: 3em; 
+  background: none; 
+} 
+
+
+
+.left  { float:left;  }
+.right { float:right; padding: 20px;  margin-right: -70px; margin-top:80px;width: 47%} 
+
+
+.imageContent{
+  width: 220%;
+  padding: 20px;  
+
+
+}
+
+
+.text  {
+  font-family:  sans-serif;
+    line-height: 1.6; 
+  font-size: 13px;
+  color: #6E6E6E;
+  
+
+}
+
+
+
+
+/*footer*/
+
+
+.header-footer {
+  text-align: center;
+}
+
+.header-footer a h1{
+  font-size: 25px;
+}
+
+.header-footer a:hover {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  color: yellow;
+
+}
+
+
+.line-horizontal2{
+  text-align: center;
+  padding: 20px;
+}
+
+.header-footer-nav {
+  background-color: #E9E9E9;
+}
+
+
+
+
+.line-horizontal2 li {
+  padding: 50px;
+  margin-top: -80px;
+
+}
+
+.line-horizontal2 li a {
+  transition: 0.5s;
+
+
+}
+
+.line-horizontal2 a:hover {
+   color: yellow;
+   transition: opacity 1s ease-in-out;
+   opacity: 1;
+}
+
+
+.facebook-emb{
+  margin-left: 900px;
+}
