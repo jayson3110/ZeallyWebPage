@@ -1,0 +1,476 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  
+}
+
+
+
+
+
+
+/*navbar*/
+
+
+
+li, a {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+} 
+
+header {
+  padding: 10px 10%;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+
+}
+
+
+li {
+    display: inline-block;
+    padding: 0px 0px;
+
+  }
+.hover a:hover{
+  color: #FAE100;
+
+}
+.hover {
+  font-size: 18px;
+}
+
+.navba-icon {
+  position: absolute;
+  right: 100px;
+  top: 7px;
+}
+
+
+.site-title {
+    font-size: 3em;
+    text-align: center;
+    line-height: 0.75;
+    text-shadow: 0.1rem 0.1rem #ffd700;
+    margin: 0rem 1rem;
+    margin-top: -25px;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+/*body1*/
+
+.container {
+  overflow: hidden;
+
+}
+
+
+.image-header{
+  object-fit: cover;
+  width: 100%;
+
+}
+
+/*.postheader {
+  margin-top: -400px;
+
+  
+}*/
+
+.box{
+  position: absolute;
+  bottom: -400px;
+  right: -50px;
+  left: 200px;
+  color: white;  
+  font-weight: 300;
+  border: 1.5px solid white;
+  padding:  30px;
+  margin: 300px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/*bodyContent
+*/
+
+
+.content { 
+  overflow:hidden; 
+  width: 100%; 
+  padding: 70px;
+
+ 
+} 
+
+.left, .right { 
+  width: 40%; 
+  margin:5px; 
+  padding: 3em; 
+  background: white; 
+} 
+
+.left  { float:left; margin-top: -70px;  margin-left: 110px;  }
+
+
+/*
+ Right-side*/
+.right { float:right; margin-right: -180px; margin-top: -90px;} 
+
+
+.sik-k{
+  width: 200%;
+  padding: 20px;  
+
+
+}
+
+.header {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.text  {
+  font-family: "Oswald", sans-serif;
+  line-height: 1.6; 
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  margin-right: 140px;
+}
+
+
+.text2 {
+  line-height: 1.6; 
+  font-size: 15px;
+  color: #6E6E6E;
+ 
+  width: 170%;
+}
+
+.header {
+  text-align: center;
+  margin-right: 140px;
+}
+
+.text h1{
+    margin-right: -10px;
+    margin-top: -2px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+
+.subpText  {
+    margin-right: -20px;
+    font-size: 12px;
+    
+}
+.bodyText {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  margin-top: -10px;
+  line-height: 1.6;
+
+  padding-right: 140px;
+
+}
+
+.facebook-embRight {
+  margin-top: 1000px;
+}
+
+.fb-size {
+  width: 20%;
+}
+
+
+
+.AnotherPostList {
+   font-size: 12px;
+   padding: 28px;
+}
+
+.cagor {
+  font-size: 10px;
+}
+
+.card {
+  margin-bottom: 50px;
+}
+
+
+.card h1 {
+  font-size: 18px;
+}
+
+.card h3 {
+  font-size: 10px;
+}
+
+.contentCard{
+  width: 80%;
+}
+
+.AnotherPostList .headerPostlist {
+   font-size: 22px;
+   margin-top: 500px;
+   margin-left: 50px;
+}
+
+
+p span.special{
+    font-weight:bold;
+    font-size: 300%;
+    color: yellow;
+}
+
+.imageContent p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.quote {
+  margin: 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+  font-size: 20px;
+}
+
+
+.PosthasmostviewMon {
+  text-align: center;
+  font-size: 10px;
+  width: 70%;
+  margin-top: 300px;
+}
+
+.PosthasmostviewMon h1 {
+  font-size:  15px;
+
+}
+
+.PosthasmostviewMon a:hover {
+   color: #FFDE00;    
+}
+
+/*.descript {
+
+}*/
+.descript {
+  padding: 20px;
+}
+
+.descript a:hover {
+   color: #FFDE00;  
+}
+
+
+
+.descript p {
+  font-size: 10px;
+  width: 70%;
+  margin-left: 120px;
+  margin-top: -50px;
+
+}
+
+.containerBlockQuote{
+  margin-left: 100px;
+}
+
+
+.quote2{
+  margin: 50px;
+  width: 60%;
+  background: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+.hrTag {
+  border-top: 0.2px solid #838383;
+  margin-top: -10px;
+
+}
+
+.hrTag2 {
+  border-top: 0.2px solid #FFEA21;
+}
+
+
+/*SubmitForm*/
+
+.SubmitForm {
+  font-size: 11px;
+}
+
+.button {
+    background-color: #FFDE35;
+    border: none;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+/*MorePost*/
+
+
+
+
+
+.headerMorePost {
+  text-align: center;
+  color: black
+}
+
+
+
+
+.content { 
+  overflow:hidden; 
+  width: 100%; 
+  padding: 0px;
+  margin-bottom: 80px;
+ 
+} 
+
+
+.left2,  { 
+  width: 00%; 
+  margin:0px; 
+  padding: 0px; 
+   
+} 
+
+
+
+/*.left2  { float:left;  }
+.right2 { float:right; padding: 20px;  margin-right: -100px; margin-top:-280px;width: 60%} */
+
+
+/*crop-image*/
+
+
+
+
+.cropped {
+    width: 550px; /* width of container */
+    height: 550px; /* height of container */
+    overflow: hidden;
+    /*border: 5px solid black;*/
+}
+
+.cropped img {
+   /* margin: -190px 20px 20px -180px;*/
+   margin: -100px 0px 0px -180px
+}
+
+
+
+
+
+
+.headerContent h1 {
+  font-size: 15px;
+  color: black;
+}
+
+
+
+.textPost  {
+  font-family: "Oswald", sans-serif;
+  line-height: 1.6; 
+  font-size: 15px;
+  color: black;
+  /*text-align: center;*/
+  margin-right: 140px;
+  margin-top: -90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.header-footer {
+  text-align: center;
+}
+
+.header-footer a h1{
+  font-size: 25px;
+}
+
+.header-footer a:hover {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  color: yellow;
+
+}
+
+
+.line-horizontal2{
+  text-align: center;
+  padding: 20px;
+}
+
+.header-footer-nav {
+  background-color: #E9E9E9;
+}
+
+
+
+
+.line-horizontal2 li {
+  padding: 50px;
+  margin-top: -80px;
+
+}
+
+.line-horizontal2 li a {
+  transition: 0.5s;
+
+
+}
+
+.line-horizontal2 a:hover {
+   color: yellow;
+   transition: opacity 1s ease-in-out;
+   opacity: 1;
+}
+
+
+.facebook-emb{
+  margin-left: 900px;
+}
